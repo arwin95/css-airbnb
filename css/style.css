@@ -17,11 +17,6 @@ img {
   padding: 10px;
 }
 
-.imgRow {
-  display: inline-block;
-  position: relative;
-}
-
 button {
   width: 250px;
   height: 40px;
@@ -44,16 +39,18 @@ button {
   display: inline-block;
   position: relative;
 }
-/*
-.text-img {
-  background-image: url("..img/san-francisco.jpg");
-  background-size: cover;
+
+.cont {
+  display: inline-block;
+  position: relative;
   text-align: center;
   color: white;
-  height: 50vh;
-  width: 50vw;
 }
 
-.name {
-  margin: 45% 0%;
-}*/
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
